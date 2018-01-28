@@ -1,8 +1,9 @@
 Stateful Statelss 차이점
 ===
 
-1. Stateful
+1.Stateful
 ---
+
 * 서버가 클라이언트와의 통신 상태(state)를 계속 추적하며 이 상태 정보를 서비스 제공에 이용하는 서버를 stateful 서버라고 한다.
 
 * 상태란 과거의 동작(데이터 송수신 및 처리) 결과라고 할 수 있는데 서버의 현재 상태에 따라서 클라이언트로부터의 요구(request)마다 취하는 응답(response)이 달라질 수 있다.
@@ -34,4 +35,4 @@ Stateful Statelss 차이점
 
 
 
-출처:[stateful 과 stateless 차이점 ](http://cafe.daum.net/_c21_/bbs_search_read?grpid=SD4r&fldid=jTs&datanum=10)
+출처: [stateful 과 stateless 차이점 ](http://cafe.daum.net/_c21_/bbs_search_read?grpid=SD4r&fldid=jTs&datanum=10)
