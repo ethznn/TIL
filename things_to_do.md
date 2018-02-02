@@ -1,6 +1,7 @@
 # Things to do
 
 * English
+* 회사 서류 제출 / 건강진단서 확인
 * Elasticsearch 튜토리얼
 * [javascript Prototypal inheritance](https://spacewalk.atlassian.net/wiki/spaces/DWS/blog/2018/01/02/1639381/2018.01.08+Javascript+Prototypal+inheritance) 참고해서 공부하기
 * Computer Science 
