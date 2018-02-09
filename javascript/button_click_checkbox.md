@@ -15,3 +15,4 @@ $(document).on("행돌(click,change)", "div,button[name='name값']",  function(e
     }
 });
 ```
+

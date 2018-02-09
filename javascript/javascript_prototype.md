@@ -143,4 +143,7 @@ kim은 eyes를 직접 가지고 있지 않지만 eyes 속성을 찾아 상위 pr
 
 이렇게 _ _proto__ 속성을 통해 상위 프로토타입과 연결되어있는 형태를 **프로토타입 체인**이라고 한다.
 
-이런 프로토타입 체인 구조 때문에 모든 객체는 **Object의 자식**이라고 불리고, Object Prototype Object에 있는 모든 속성을 사용할 수 있음.
+![Object의 속성](https://cdn-images-1.medium.com/max/1600/1*VW4PFea8x7LQiHp3PI8Hrg.png)
+
+이런 프로토타입 체인 구조 때문에 모든 객체는 **Object의 자식**이라고 불리고, 위에 보이는 Object Prototype Object에 있는 모든 속성을 사용할 수 있음.
+
