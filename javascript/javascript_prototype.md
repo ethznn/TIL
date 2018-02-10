@@ -14,7 +14,7 @@ class는 객체지향언어에서 빠질 수 없는 개념
 
 **클라스라는 개념이 없다. 대신 프로토타입**이라는 것이 존재
 
-클라스가 없어서 기본적으로 상속기능도 없다. 그래서 보통 프로토타입을 기반으로 상속을 흉내내도록 구현해 사용\
+클라스가 없어서 기본적으로 상속기능도 없다. 그래서 보통 프로토타입을 기반으로 상속을 흉내내도록 구현해 사용
 
 
 
@@ -41,13 +41,13 @@ function Person() {}
 Person.prototype.eyes = 2;
 Person.prototype.nose = 1;
 var kim  = new Person();
-var park = new Person():
+var park = new Person();
 console.log(kim.eyes); // => 2
 ```
 
-간단히 설명하면 Person.prototype이라는 빈 Object가 어딘가 존재하고, Person 함수로 생성된 객체(kim, park)들은 어딘가에 존재하는 Object에 들어있는 값을 모두 갖다쓸 수 있다.
+간단히 설명하면 Person.prototype이라는 빈 Object가 어딘가 존재하고, Person 함수로 생성된 객체(kim, park)들은 어딘가에 존재하는 Object에 들어있는 값을 모두 가져다 쓸 수 있다.
 
-**즉, eyes와 nose를 어딘가 있는 빈공강(Person.prototype)에 넣어놓고 kim과 park이 공유해서 사용**
+**즉, eyes와 nose를 어딘가 있는 빈공간(Person.prototype)에 넣어놓고 kim과 park이 공유해서 사용**
 
 개발자가 사용하는 부분만 보면 이게 전부다 하지만 **왜??**
 
@@ -92,7 +92,7 @@ Prototype Object와 무슨 상관이 있느냐! 함수가 정의될 때는 2가�
 
 1. 해당 함수에 Constructor(생산자) 자격 부여
 
-   * 생성자 자격이 부여되면 new를 통해 객체를 만들어 낼수 있다. (함수만 new 키워드를 사용할 수 있음)
+   * 생성자 자격이 부여되면 new를 통해 객체를 만들어 낼 수 있다. (함수만 new 키워드를 사용할 수 있음)
 
 2. 해당 함수의 Prototype Object 생성 및 연결
 
