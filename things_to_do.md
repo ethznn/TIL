@@ -2,6 +2,10 @@
 
 * 설 연휴 계획 
   *  _script에 있는 모든 function 정리 in dailyTask/landbook
+  *  구글 애널리틱스로 거의 모든 것을 다 할 수 있으나
+     전제는 구글 애널리틱스에 쌓인 데이터를 분석하고 해석하는 능력
+     **google analystics, mixpanel, keen.io** 등 지표추적관련 서비스들은 여러가지가 많다.
+     tool마다 어떤 차이점이 있는지 비교해보면서 공부
 * English
   * Documents 읽으면서 모르는 단어, 문법 정리하면서 외우려 노력하기
 * Elasticsearch 튜토리얼
