@@ -1,4 +1,4 @@
-## ion.RangeSlider
+# ion.RangeSlider
 
 #### html
 
