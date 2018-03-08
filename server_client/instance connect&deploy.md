@@ -20,16 +20,6 @@ IdentityFile ~/.ssh/pem파일
 
 
 
-접속할 때
-
-```bash
-sudo ssh User(내 경우 root)@IPv4
-```
-
-하면 접속 가능하다.
-
-
-
 위 설정 후 자신의 로컬에서
 
 ```bash
