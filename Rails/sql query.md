@@ -11,3 +11,9 @@ array 연산 대산 sql query 사용.
 ```ruby
 owner_parcels.count
 ```
+count column unique
+
+```ruby
+owner_parcels.distinct.count(:pnu)
+```
+
