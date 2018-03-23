@@ -34,6 +34,8 @@
    rails g model name
 
    복사한 내용 붙여넣기
+
+   rails db:migrate
    ```
 
 4. 데이터 입히기
@@ -84,7 +86,7 @@
      end
    end
 
-   cap production deploy data upload
+   cap production data:upload
    ```
 
    ​
