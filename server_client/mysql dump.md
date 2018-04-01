@@ -9,7 +9,7 @@ ex) mysqldump -u root -p -h localhost --verbose name_of_database > /경로/.sql�
 ```bash
 mysqldump -u root -p -h localhost --verbose pray_development > tmp/data/backup.sql
 
-mysqldump -u testuser -p testDB testTable > test.sql
+mysqldump -u testuser -p testDB testTable1 testTable2 testTable3 > test.sql
 ```
 
 
