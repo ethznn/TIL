@@ -7,6 +7,11 @@ sudo adduser deploy
 sudo adduser deploy sudo
 sudo gpasswd -a deploy sudo
 passwd deploy //
+
+ubuntu@private_ip:~$ sudo vi /etc/sudoers 로 파일을 열어
+root   ALL=(ALL:ALL) ALL 아래에
+deploy ALL=(ALL) ALL 추가
+# 사용자 deploy 모든 터미널에서 모든 사용자의 권한으로 모든 명령을 실행할 수 있다.
 ```
 
 이제 만들어준 아이디로 접속할 수 있게끔 하는 public_key를 복사해주자
