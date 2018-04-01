@@ -10,7 +10,7 @@ passwd deploy //
 
 ubuntu@private_ip:~$ sudo vi /etc/sudoers 로 파일을 열어
 root   ALL=(ALL:ALL) ALL 아래에
-deploy ALL=(ALL) ALL 추가
+deploy ALL=(ALL) NOPASSWD:ALL
 # 사용자 deploy 모든 터미널에서 모든 사용자의 권한으로 모든 명령을 실행할 수 있다.
 ```
 
@@ -36,7 +36,7 @@ ubuntu@private_ip:~$ ls -al 히면
 그래서 접속 허용 이 키를 복사하기 위해 우선 deploy 에 .ssh 폴더를 만들어준다.
 ubuntu@private_ip:~$ mkdir ../deploy/.ssh
 
-그리고 authorized_keys 복사 붙여넣기
+그리고 authorized_keys 복사 여넣기
 ubuntu@private_ip:~$ sudo cp .ssh/authorized_keys ../deploy/.ssh/authorized_keys
 
 ubuntu@private_ip:/home/deploy$ ls -al 하면 .ssh 폴더가 있고 안에 들어가보면 키가 있다.
