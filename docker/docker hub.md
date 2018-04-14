@@ -112,4 +112,3 @@
    $ docker logout
    Remove login credentials for https://index.docker.io/v1/
    ```
-
