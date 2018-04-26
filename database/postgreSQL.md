@@ -20,6 +20,16 @@ DB 삭제
 $ dropdb -U root -h RDS_endpoint -p 5432 DB_name
 ```
 
+DB 덤프
+
+```bash
+# 전체 DB
+$ sudo pg_dump DB_name > tmp/data/backup.sql
+
+# 특정 테이블
+$ sudo pg_dump DB_name -t TABLE_name -t TABLE_name > tmp/data/backup.sql
+```
+
 DB 씌우기
 
 ```bash
