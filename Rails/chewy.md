@@ -1,8 +1,8 @@
 # chewy / elatsicsearch
 
 ```bash
-$ bin/raike chewy:reset
-$ bin/raike chewy:reset[development_map] only writeen index
+$ bin/raile chewy:reset
+$ bin/raile chewy:reset[development_map] only writeen index
 ```
 
 예시 definition
