@@ -43,8 +43,15 @@ rbenv rehash
 ### git config
 
 ```bash
-ssh-keygen -t rsa -b 4096
+sudo ssh-keygen -t rsa -b 4096
+Enter file in which to save the key (/root/.ssh/id_rsa): /home/USER/.ssh/id_rsa #USER
 
-sudo cat /.ssh/id_rsa.pub
+sudo cat .ssh/id_rsa.pub
+ssh-rsa ~~~~~~ root@privateIP
+
+내용 복사 후
+git repository setting deploy key 에 저장
+
+# 참고로
+sudo chown deploy.deploy /home/deploy/.ssh/id_rsa # 권한 변경해줘야 github deploy로 읽기 가능
 ```
-

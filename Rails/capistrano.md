@@ -24,7 +24,7 @@ $ bundle exec cap install
 
 modify Capfile
 modify config/deploy/production.rb
-modify config/deploy.rbs
+modify config/deploy.rb
 
 $ bundle exec cap production deploy
 ```
