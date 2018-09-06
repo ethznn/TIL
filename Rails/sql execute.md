@@ -11,3 +11,4 @@ ActiveRecord::Base.connection.execute(
 	ORDER BY 'POINT(#{@parcel.longitude} #{@parcel.latitude})' <-> b.polygon;"
 )
 ```
+
