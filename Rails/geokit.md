@@ -1,6 +1,21 @@
 # geokit usage
 
-예시코드 =>
+example codes
+
+in model 
+
+```ruby
+# macros
+# parcel.rb
+class Parcel < ApplicationRecord
+	...
+  acts_as_mappable default_units: :kms,
+    lat_column_name: :latitude, lng_column_name: :longitude
+	...
+end
+```
+
+in controller
 
 ```ruby
 Parcel
