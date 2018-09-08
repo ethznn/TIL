@@ -16,6 +16,6 @@ New secrets encrypted and saved.
 ```bash
 EDITOR="vi" bin/rails credentials:edit
 
-New secrets encrypted and saved.
+New credentials encrypted and saved.
 ```
 

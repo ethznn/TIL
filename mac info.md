@@ -10,11 +10,19 @@
 
   * ###### 2.5.0
 
+  * 2.5.1
+
+* ##### Python 
+
 ### System dependencies
 
 * ##### mysql 
 
   * ###### Ver 14.14 Distrib 5.7.21, for osx10.13 (x86_64) using  EditLine wrapper
+
+* ##### postgresql
+
+  * ###### postgresql: stable 10.5 (bottled)
 
 * ##### redis
 
