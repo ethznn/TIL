@@ -1,41 +1,43 @@
-## Mac local info
+# Mac local info
 
-###### macOS High Serra v 10.13.3
+###### macOS High Serra v 10.13.6
+
+## Frequently used
 
 ### Languages
 
-* ##### ruby -v
-
-  * ###### 2.4.2
-
-  * ###### 2.5.0
+* #### ruby -v
 
   * 2.5.1
 
-* ##### Python 
+* #### python --version
 
-### System dependencies
+  * 2.7.5
 
-* ##### mysql 
+* #### python3 --version
+
+  * 3.7.0
+
+## System dependencies
+
+* ### mysql 
 
   * ###### Ver 14.14 Distrib 5.7.21, for osx10.13 (x86_64) using  EditLine wrapper
 
-* ##### postgresql
+* ### postgresql
 
   * ###### postgresql: stable 10.5 (bottled)
 
-* ##### redis
+* ### elasticsearch
 
-  * ###### Redis server v=4.0.7
+  * ###### Version: 5.6
 
-* ##### memcached 
-
-  * ###### 1.5.4
-
-* ##### elasticsearch
-
-  * ###### Version: 6.1.2
-
-* ##### node.js
+* ### node.js
 
   * v9.4.0
+
+* ### docker
+
+  * 
+
+    Docker version 18.06.0-ce, build 0ffa825
