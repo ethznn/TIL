@@ -1,6 +1,12 @@
-해당 @parcel 로 주변 일정 거리에 속하는 폴리곤을 가진 필지 데이터를 가져오기
+# Sql execute
+
+Using PostGis
 
 
+
+예) 해당 @parcel 로 주변 일정 거리에 속하는 폴리곤을 가진 필지 데이터를 가져오기
+
+ex) Getting datas of parcels that has polygons with same distanse 
 
 ```ruby
 # ActiveRecord => postgre with PostGis
