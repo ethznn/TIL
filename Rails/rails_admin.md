@@ -19,7 +19,7 @@ $ rails g rails_admin:install
 
 접속 인증이나 모델 리스트 뷰 configuration이 가능하지만 자유도가 높지는 않음.
 
-Global configuration
+### Global configuration
 ```ruby
 RailsAdmin.config do |config|
 
@@ -74,5 +74,33 @@ RailsAdmin.config do |config|
     history_show
   end
 end
+```
 
+### model config
+```ruby
+def example_function
+  logs.where(name: "small_housing").count
+end
+
+rails_admin do
+  # 리스트에 들어가는 부분 config
+  configure :example_function do
+    visible false # so it's not on new/edit 
+  end
+
+  # 모델 클릭시 보여줄 모델의 column
+  list do
+    field :id
+    field :email
+    field :organization
+    field :example_function
+  end
+
+  show do
+    field :id
+    field :email
+    field :organization
+    field :example_function
+  end
+end
 ```
