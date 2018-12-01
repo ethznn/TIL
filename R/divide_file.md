@@ -81,12 +81,11 @@ data.table 1.11.4  Latest news: http://r-datatable.com
 > nrow(d11) / 5
 [1] 1146270
 
-for(i in 1:6) {
-
-if(i ==6) {
-	t = d11[5000001:nrow(d11),]
-	} else {
-	t = d11[(1+(i-1)1000000):(i1000000),]
+for(i in 1:3) {
+	if(i == 3) {
+		t = d11[4000001:nrow(d11),]
+		} else {
+		t = d11[(1+(i-1)*2000000):(i*2000000),]
 	}
 	fwrite(t, paste0("11_lot_autoarchi_short_", i, ".txt"), row.names=F)
 }
